@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <!-- ============ SEO (checklist "Web": SEO) ============ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcelo Alcaide A. | Portafolio</title>
+    <meta name="description" content="Portafolio de Marcelo Alcaide A., estudiante de ingeniería informática y programador en formación desde Puente Alto, Santiago de Chile. Aprendiendo construyendo proyectos.">
+    <meta name="author" content="Marcelo Alcaide A.">
+
+    <!-- Open Graph (compartir en redes) -->
+    <meta property="og:title" content="Marcelo Alcaide A. | Portafolio">
+    <meta property="og:description" content="Portafolio de Marcelo Alcaide A., estudiante de ingeniería informática y programador en formación. Aprendiendo construyendo proyectos.">
+    <meta property="og:image" content="assets/avatar.svg">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- ============ HEADER: nombre + navegación continua (checklist "Web": navegación continua) ============ -->
+    <header class="site-header">
+        <nav class="nav container" aria-label="Navegación principal">
+            <a href="#inicio" class="nav-logo">Marcelo Alcaide A.</a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#extra">Extra</a></li>
+                <!-- Botón claro/oscuro (checklist "Opcional": Dark/Light) -->
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema claro/oscuro">🌙</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ============ HERO = Inicio: nombre, habilidad principal, contacto (checklist "Obligatorio") ============ -->
+        <section id="inicio" class="hero section">
+            <div class="container">
+                <img src="assets/avatar.svg" alt="Foto de Marcelo Alcaide A." class="hero-avatar">
+                <h1 class="hero-name">Marcelo Alcaide A.</h1>
+                <p class="hero-skill">Estudiante de Ing. Informática | Programador</p>
+                <p class="hero-location">📍 Puente Alto, Santiago, Chile</p>
+
+                <!-- Contacto principal (checklist "Obligatorio": email) + CV (pdf) + redes (Recomendable: GitHub/LinkedIn) -->
+                <div class="hero-actions">
+                    <a href="mailto:marceloquillayes@gmail.com" class="btn btn-primary">✉️ marceloquillayes@gmail.com</a>
+                    <button type="button" class="btn btn-secondary copy-email" data-email="marceloquillayes@gmail.com">📋 Copiar email</button>
+                    <a href="assets/cv.pdf" download class="btn btn-secondary">📄 Descargar CV</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/4lc4id3-creator" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">GitHub</a>
+                    <a href="https://linkedin.com/in/[TU_USUARIO]" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SOBRE MÍ (checklist "Obligatorio": Sobre mí) ============ -->
+        <section id="sobre-mi" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre mí</h2>
+                <div class="card card-about">
+                    <p>
+                        Soy Marcelo, estudiante de ingeniería en informática desde Puente Alto, Chile.
+                        Aprendo programación construyendo: proyectos pequeños, problemas reales y
+                        mejoras constantes. Esto es mi bitácora de crecimiento como developer.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ TECNOLOGÍAS (checklist "Obligatorio": Habilidades técnicas CATEGORIZADAS) ============ -->
+        <section id="tecnologias" class="section">
+            <div class="container">
+                <h2 class="section-title">Tecnologías</h2>
+
+                <div class="tech-group">
+                    <h3 class="tech-group-title">Lenguajes</h3>
+                    <div class="chips">
+                        <span class="chip">Python</span>
+                        <span class="chip">GDScript</span>
+                        <span class="chip">HTML</span>
+                    </div>
+                </div><!-- Próximamente: herramientas (Git, VS Code...) cuando las uses -->
+
+                <div class="tech-group">
+                    <h3 class="tech-group-title">Habilidades blandas</h3>
+                    <div class="chips">
+                        <span class="chip">Aprendizaje autodidacta</span>
+                        <span class="chip">Constancia</span>
+                        <span class="chip">Resolutivo</span>
+                    </div><!-- Confirma si te representan y ajustamos -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ EXPERIENCIA (checklist "Obligatorio": experiencia laboral, en cualquier caso) ============ -->
+        <section id="experiencia" class="section">
+            <div class="container">
+                <h2 class="section-title">Experiencia</h2>
+
+                <article class="card card-item">
+                    <div class="card-item-icon">💼</div>
+                    <div class="card-item-body">
+                        <header class="card-item-header">
+                            <div>
+                                <h3>Sin experiencia formal (todavía)</h3>
+                                <p class="card-item-subtitle">Mi camino: aprender construyendo</p>
+                            </div>
+                            <span class="card-item-date">En proceso</span>
+                        </header>
+                        <p class="card-item-desc">
+                            Mis proyectos personales son mi experiencia en formación.
+                            Aquí documentaré mi primera práctica profesional.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ PROYECTOS (checklist "Obligatorio": descripción, tecnologías, imagen, código) ============ -->
+        <section id="proyectos" class="section">
+            <div class="container">
+                <h2 class="section-title">Proyectos</h2>
+
+                <div class="grid-2">
+                    <article class="card project-card">
+                        <img src="assets/proyecto-gta-trucos.png" alt="Captura de la web Trucos de GTA: portada oscura con las tres consolas PC, PlayStation y Xbox" class="project-image">
+                        <div class="project-body">
+                            <h3>GTA Trucos — Guía de trucos de GTA 🎮</h3>
+                            <p class="project-desc">
+                                Mi primer proyecto web: una guía con ~470 trucos verificados de 5 juegos
+                                de GTA (San Andreas, Vice City, III, IV y V) para PC, PlayStation y Xbox,
+                                separados por versión. Tema "Los Santos de noche", tablas de vidrio y un
+                                buscador que filtra los trucos en tiempo real.
+                            </p>
+                            <div class="chips chips-sm">
+                                <span class="chip">HTML</span>
+                                <span class="chip">CSS</span>
+                                <span class="chip">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://4lc4id3-creator.github.io/gta-trucos/" target="_blank" rel="noopener">🌐 Ver en línea</a>
+                                <a href="https://github.com/4lc4id3-creator/gta-trucos" target="_blank" rel="noopener">👤 Ver código</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ FORMACIÓN (checklist "Obligatorio": formación reglada o no) ============ -->
+        <section id="formacion" class="section">
+            <div class="container">
+                <h2 class="section-title">Formación</h2>
+
+                <article class="card card-item">
+                    <div class="card-item-icon">🎓</div>
+                    <div class="card-item-body">
+                        <header class="card-item-header">
+                            <div>
+                                <h3>Ingeniería en Informática</h3>
+                                <p class="card-item-subtitle">Instituto Profesional Santo Tomás — Santiago Centro</p>
+                            </div>
+                            <span class="card-item-date">2026 — Actualidad</span>
+                        </header>
+                        <p class="card-item-desc">Carrera en curso.</p>
+                    </div>
+                </article>
+
+                <!-- 📚 AÑADIR AQUÍ CURSOS/BOOTCAMP cuando los hagas:
+                <article class="card card-item">
+                    <div class="card-item-icon">📚</div>
+                    <div class="card-item-body">
+                        <header class="card-item-header">
+                            <div>
+                                <h3>[CURSO]</h3>
+                                <p class="card-item-subtitle">[PLATAFORMA]</p>
+                            </div>
+                            <span class="card-item-date">[FECHA]</span>
+                        </header>
+                        <p class="card-item-desc">[QUÉ APRENDISTE]</p>
+                    </div>
+                </article>
+                -->
+            </div>
+        </section>
+
+        <!-- ============ EXTRA (checklist "Opcional": lo que estoy aprendiendo, aficiones, certificaciones) ============ -->
+        <section id="extra" class="section">
+            <div class="container">
+                <h2 class="section-title">Extra</h2>
+
+                <div class="grid-3">
+                    <div class="card extra-card">
+                        <span class="extra-icon">🌱</span>
+                        <h3>Aprendiendo</h3>
+                        <p>Python, HTML y GDScript. El próximo paso: CSS y JavaScript.</p>
+                    </div>
+                    <div class="card extra-card">
+                        <span class="extra-icon">🏅</span>
+                        <h3>Certificaciones</h3>
+                        <p>En camino. Pronto verás aquí mis primeras certificaciones.</p>
+                    </div>
+                    <div class="card extra-card">
+                        <span class="extra-icon">🎮</span>
+                        <h3>Aficiones</h3>
+                        <p>Construir proyectos por gusto: juegos y páginas web. Skate el tiempo libre.</p>
+                    </div>
+                    <div class="card extra-card">
+                        <span class="extra-icon">🗣️</span>
+                        <h3>Idiomas</h3>
+                        <p>Español (nativo) · Inglés (A2, en caminata 🚀)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER: contacto + cierre ============ -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>¿Hablamos?</p>
+            <div class="hero-actions hero-actions-center">
+                <a href="mailto:marceloquillayes@gmail.com" class="btn btn-primary">✉️ marceloquillayes@gmail.com</a>
+                <button type="button" class="btn btn-secondary copy-email" data-email="marceloquillayes@gmail.com">📋 Copiar email</button>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/4lc4id3-creator" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://linkedin.com/in/[TU_USUARIO]" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+            <p class="footer-copy">© <span id="year"></span> Marcelo Alcaide A.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
